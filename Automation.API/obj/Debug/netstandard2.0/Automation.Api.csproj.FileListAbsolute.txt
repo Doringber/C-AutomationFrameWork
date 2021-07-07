@@ -1,0 +1,14 @@
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Api.deps.json
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Api.dll
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Api.pdb
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Core.dll
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Extensions.dll
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Core.pdb
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\bin\Debug\netstandard2.0\Automation.Extensions.pdb
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.csprojAssemblyReference.cache
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.AssemblyInfoInputs.cache
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.AssemblyInfo.cs
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.csproj.CoreCompileInputs.cache
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.csproj.CopyComplete
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.dll
+C:\Users\DorIngber\OneDrive - pango\שחזור\VsDorProject\AutomationRoot\Automation.API\obj\Debug\netstandard2.0\Automation.Api.pdb
