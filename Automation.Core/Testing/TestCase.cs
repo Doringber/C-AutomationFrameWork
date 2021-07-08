@@ -21,6 +21,7 @@ namespace Automation.Core.Testing
         private IDictionary<string, object> testParams;
         private int attempts;
         private ILogger logger;
+
         //components
         public abstract bool AutomationTest(IDictionary<string, object> testParams);
 

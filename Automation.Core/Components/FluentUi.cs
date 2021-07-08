@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Automation.Core.Components
 {
-    public class FluentUi : IFluent
+    public class FluentUi : FluentBase, IFluent
     {
         private IWebDriver driver;
 
@@ -14,25 +14,13 @@ namespace Automation.Core.Components
         public FluentUi(IWebDriver driver) :this(driver, new TraceLogger())
         { }
 
-        public FluentUi(IWebDriver driver, ILogger logger)
+        public FluentUi(IWebDriver driver, ILogger logger): base(logger)
         {
             Driver = driver;
-            Logger = logger;
         }
 
         public IWebDriver Driver { get; }
-        public ILogger Logger { get; }
-        public T ChangeContext<T>(ILogger logger)
-        {
-            return Create<T>(logger);
-        }
 
-        public T ChangeContext<T>()
-        {
-            var instance = Create<T>(null);
-            Logger.Debug($"instance of [{GetType()?.FullName}] created");
-            return instance;
-        }
         public T ChangeContext<T>(string appliction, ILogger logger)
         {
             Driver.Navigate().GoToUrl(appliction);
@@ -49,7 +37,7 @@ namespace Automation.Core.Components
 
         }
 
-        private T Create<T>(ILogger logger)
+        internal  override T Create<T>(ILogger logger)
         {
             return logger == null? (T)Activator.CreateInstance(typeof(T), new object[] { Driver }) : (T)Activator.CreateInstance(typeof(T), new object[] { Driver, logger });
         }

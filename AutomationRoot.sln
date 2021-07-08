@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Extensions", "Au
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Testing", "Automation.Testing\Automation.Testing.csproj", "{22FE5C3B-863E-43BB-A272-3EAC3035B558}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Core", "Automation.Core\Automation.Core.csproj", "{0197A9B9-0B59-47F3-9C16-3001C7A6B8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Core", "Automation.Core\Automation.Core.csproj", "{0197A9B9-0B59-47F3-9C16-3001C7A6B8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Api", "Automation.API\Automation.Api.csproj", "{9CA209C4-F36A-49AF-91AF-7B1065EF551A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Api", "Automation.API\Automation.Api.csproj", "{9CA209C4-F36A-49AF-91AF-7B1065EF551A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Framework.Ui", "Automation.Framework\Automation.Framework.Ui.csproj", "{2EEC8C61-436F-4CE6-9795-6AF8715CB2A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Framework.Ui", "Automation.Framework\Automation.Framework.Ui.csproj", "{2EEC8C61-436F-4CE6-9795-6AF8715CB2A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Framework.RestApi", "Automation.Framework.RestApi\Automation.Framework.RestApi.csproj", "{2DA63867-DDD6-4AA4-B9C6-28DBA850DD4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Automation.Framework.RestApi", "Automation.Framework.RestApi\Automation.Framework.RestApi.csproj", "{2DA63867-DDD6-4AA4-B9C6-28DBA850DD4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
