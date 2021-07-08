@@ -39,5 +39,21 @@ namespace Automation.Testing.Containers
             //assert
             Assert.IsTrue(actual);
         }
+
+        [TestMethod]
+        [DataTestMethod]
+        [DataRow("{'driver':'API','title':'delectus aut autem','appliction':'https://gravitymvctestapplication.azurewebsites.net/Student','url':'https://jsonplaceholder.typicode.com/todos/1'}")]
+        public void CreateRest(string testParams)
+        {
+
+            //gernaratio test params 
+            var paraneters = JsonConvert.DeserializeObject<Dictionary<string, object>>(testParams);
+
+            //execute with params
+            var actual = new RestCase().withTestParams(paraneters).Execute().Actual;
+
+            //assert
+            Assert.IsTrue(actual);
+        }
     }
 }

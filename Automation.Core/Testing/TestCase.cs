@@ -5,6 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Text;
 
 namespace Automation.Core.Testing
@@ -27,7 +28,16 @@ namespace Automation.Core.Testing
 
         public TestCase Execute()
         {
-            Driver = Get();
+
+            if (testParams["driver"].Equals("API"))
+            {
+                HttpClient = getResHttpClient();
+            }
+            else
+            {
+                Driver = Get();
+
+            }
 
             for (int i = 0; i < attempts; i++)
             {
@@ -77,6 +87,8 @@ namespace Automation.Core.Testing
 
         public IWebDriver Driver { get; private set; }
 
+        public HttpClient HttpClient { get; set; }
+
         //stupr
 
         private IWebDriver Get()
@@ -90,6 +102,14 @@ namespace Automation.Core.Testing
 
             return new WebDriverFactory(driverParams).Get();
         }
+
+
+        private HttpClient getResHttpClient()
+        {
+
+            return new HttpClient();
+        }
+
 
         public TestCase withNumberOfAttempts(int numberOfAttempts)
         {

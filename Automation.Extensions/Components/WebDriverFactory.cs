@@ -110,15 +110,11 @@ namespace Automation.Extensions.Components
         }
 
         //remote 
-
-
         private IWebDriver GetRemoteChrome() => new RemoteWebDriver(new Uri(driverParams.Binaries), ChromeOptionsRemote().ToCapabilities(), TimeSpan.FromSeconds(600));
 
         private IWebDriver GetRemoteFireFox() => new RemoteWebDriver(new Uri(driverParams.Binaries), new FirefoxOptions());
 
         private IWebDriver GetRemoteEdge() => new RemoteWebDriver(new Uri(driverParams.Binaries), EdgeOptionsRemote().ToCapabilities(), TimeSpan.FromSeconds(600));
-
-
 
 
         private IWebDriver GertRemoteDriver()
